@@ -1,0 +1,92 @@
+[{
+  "_id": 1,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los faroles",
+  "Equipo 2": "Casuarito",
+  "Arbitro": "Camilo Barrantes Rojas"
+},{
+  "_id": 2,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los faroles",
+  "Equipo 2": "Colfatima",
+  "Arbitro": "Gilberto Benavides Gutierrez"
+},{
+  "_id": 3,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los faroles",
+  "Equipo 2": "Insuperables",
+  "Arbitro": "Gilberto Benavides Gutierrez"
+},{
+  "_id": 4,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los faroles",
+  "Equipo 2": "Los del barrio",
+  "Arbitro": "Javier Andres Castellanos"
+},{
+  "_id": 5,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los faroles",
+  "Equipo 2": "Los troncos",
+  "Arbitro": "Gilberto Benavides Gutierrez"
+},{
+  "_id": 6,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Casuarito",
+  "Equipo 2": "Colfatima",
+  "Arbitro": "Camilo Barrantes Rojas"
+},{
+  "_id": 7,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Casuarito",
+  "Equipo 2": "Insuperables",
+  "Arbitro": "Juan Andres Bermudez"
+},{
+  "_id": 8,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Casuarito",
+  "Equipo 2": "Los del barrio",
+  "Arbitro": "Camilo Barrantes Rojas"
+},{
+  "_id": 9,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Casuarito",
+  "Equipo 2": "Los troncos",
+  "Arbitro": "Cristian Javier Rojas"
+},{
+  "_id": 10,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Colfatima",
+  "Equipo 2": "Insuperables",
+  "Arbitro": "Gilberto Benavides Gutierrez"
+},{
+  "_id": 11,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Colfatima",
+  "Equipo 2": "Los del barrio",
+  "Arbitro": "Javier Andres Castellanos"
+},{
+  "_id": 12,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Colfatima",
+  "Equipo 2": "Los troncos",
+  "Arbitro": "Gilberto Benavides Gutierrez"
+},{
+  "_id": 13,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Insuperables",
+  "Equipo 2": "Los del barrio",
+  "Arbitro": "Cristian Javier Rojas"
+},{
+  "_id": 14,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Insuperables",
+  "Equipo 2": "Los troncos",
+  "Arbitro": "Juan Andres Bermudez"
+},{
+  "_id": 15,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los del barrio",
+  "Equipo 2": "Los troncos",
+  "Arbitro": "Camilo Barrantes Rojas"
+}
+]

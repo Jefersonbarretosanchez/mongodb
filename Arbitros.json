@@ -1,0 +1,26 @@
+[{
+  "_id": 1,
+  "Nombre": "Camilo Barrantes Rojas",
+  "Edad": 38,
+  "Valor_partido": 10000
+},{
+  "_id": 2,
+  "Nombre": "Juan Andres Bermudez",
+  "edad": 35,
+  "Valor_partido": 10000
+},{
+  "_id": 3,
+  "Nombre": "Cristian Javier Rojas",
+  "edad": 28,
+  "Valor_partido": 10000
+},{
+  "_id": 4,
+  "Nombre": "Gilberto Benavides Gutierrez",
+  "edad": 40,
+  "Valor_partido": 10000
+},{
+  "_id": 5,
+  "Nombre": "Javier Andres Castellanos",
+  "edad": 38,
+  "Valor_partido": 10000
+}]

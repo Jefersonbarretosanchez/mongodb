@@ -1,0 +1,121 @@
+[{
+  "_id": 1,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los faroles",
+  "Equipo 2": "Casuarito",
+  "Goles_equipo1": 1,
+  "Goles_equipo2": 2,
+  "Arbitro": "Camilo Barrantes Rojas"
+},{
+  "_id": 2,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los faroles",
+  "Equipo 2": "Colfatima",
+  "Goles_equipo1": 2,
+  "Goles_equipo2": 1,
+  "Arbitro": "Gilberto Benavides Gutierrez"
+},{
+  "_id": 3,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los faroles",
+  "Equipo 2": "Insuperables",
+  "Goles_equipo1": 2,
+  "Goles_equipo2": 0,
+  "Arbitro": "Gilberto Benavides Gutierrez"
+},{
+  "_id": 4,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los faroles",
+  "Equipo 2": "Los del barrio",
+  "Goles_equipo1": 0,
+  "Goles_equipo2": 3,
+  "Arbitro": "Javier Andres Castellanos"
+},{
+  "_id": 5,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los faroles",
+  "Equipo 2": "Los troncos",
+  "Goles_equipo1": 2,
+  "Goles_equipo2": 4,
+  "Arbitro": "Gilberto Benavides Gutierrez"
+},{
+  "_id": 6,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Casuarito",
+  "Equipo 2": "Colfatima",
+  "Goles_equipo1": 4,
+  "Goles_equipo2": 0,
+  "Arbitro": "Camilo Barrantes Rojas"
+},{
+  "_id": 7,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Casuarito",
+  "Equipo 2": "Insuperables",
+  "Goles_equipo1": 2,
+  "Goles_equipo2": 1,
+  "Arbitro": "Juan Andres Bermudez"
+},{
+  "_id": 8,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Casuarito",
+  "Equipo 2": "Los del barrio",
+  "Goles_equipo1": 0,
+  "Goles_equipo2": 1,
+  "Arbitro": "Camilo Barrantes Rojas"
+},{
+  "_id": 9,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Casuarito",
+  "Equipo 2": "Los troncos",
+  "Goles_equipo1": 0,
+  "Goles_equipo2": 2,
+  "Arbitro": "Cristian Javier Rojas"
+},{
+  "_id": 10,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Colfatima",
+  "Equipo 2": "Insuperables",
+  "Goles_equipo1": 0,
+  "Goles_equipo2": 1,
+  "Arbitro": "Gilberto Benavides Gutierrez"
+},{
+  "_id": 11,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Colfatima",
+  "Equipo 2": "Los del barrio",
+  "Goles_equipo1": 3,
+  "Goles_equipo2": 2,
+  "Arbitro": "Javier Andres Castellanos"
+},{
+  "_id": 12,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Colfatima",
+  "Equipo 2": "Los troncos",
+  "Goles_equipo1": 4,
+  "Goles_equipo2": 2,
+  "Arbitro": "Gilberto Benavides Gutierrez"
+},{
+  "_id": 13,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Insuperables",
+  "Equipo 2": "Los del barrio",
+  "Goles_equipo1": 1,
+  "Goles_equipo2": 5,
+  "Arbitro": "Cristian Javier Rojas"
+},{
+  "_id": 14,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Insuperables",
+  "Equipo 2": "Los troncos",
+  "Goles_equipo1": 4,
+  "Goles_equipo2": 2,
+  "Arbitro": "Juan Andres Bermudez"
+},{
+  "_id": 15,
+  "Fecha": "2023-03-15",
+  "Equipo 1": "Los del barrio",
+  "Equipo 2": "Los troncos",
+  "Goles_equipo1": 5,
+  "Goles_equipo2": 1,
+  "Arbitro": "Camilo Barrantes Rojas"
+}]

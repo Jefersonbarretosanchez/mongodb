@@ -1,0 +1,106 @@
+[{
+  "_id": 1129572839,
+  "Nombre": "Joan Andreu Cruz",
+  "Edad": 25,
+  "Posicion": "Capitan",
+  "Equipo": "Los faroles"
+},{
+  "_id": 1075110641,
+  "Nombre": "Jordi Raya Gavilan",
+  "Edad": 24,
+  "Posicion": "Defensa",
+  "Equipo": "Los faroles"
+},{
+  "_id": {
+    "$numberLong": "5905286207"
+  },
+  "Nombre": "Jordi Biosca Fontanet",
+  "Edad": 25,
+  "Posicion": "Defensa",
+  "Equipo": "Los faroles"
+},{
+  "_id": {
+    "$numberLong": "7393199036"
+  },
+  "Nombre": "Xavier Benitez Jose",
+  "Edad": 24,
+  "Posicion": "Delantero",
+  "Equipo": "Los faroles"
+},{
+  "_id": {
+    "$numberLong": "4810784672"
+  },
+  "Nombre": "Mario Pascual Flores",
+  "Edad": 25,
+  "Posicion": "Capitan",
+  "Equipo": "Casuarito"
+},{
+  "_id": {
+    "$numberLong": "5501442450"
+  },
+  "Nombre": "Jesus Ayala Torné",
+  "Edad": 31,
+  "Posicion": "Defensa",
+  "Equipo": "Casuarito"
+},{
+  "_id": {
+    "$numberLong": "4119216023"
+  },
+  "Nombre": "Alejandro Aloy Compte",
+  "Edad": 22,
+  "Posicion": "Delantero",
+  "Equipo": "Casuarito"
+},{
+  "_id": {
+    "$numberLong": "4806322470"
+  },
+  "Nombre": "Carlos Acuña Tort",
+  "Edad": 25,
+  "Posicion": "Capitan",
+  "Equipo": "Colfatima"
+},{
+  "_id": {
+    "$numberLong": "7333063098"
+  },
+  "Nombre": "Cristian Badia Castillo",
+  "Edad": 22,
+  "Posicion": "Defensa",
+  "Equipo": "Colfatima"
+},{
+  "_id": {
+    "$numberLong": "6810730642"
+  },
+  "Nombre": "Julio Alberto Benitez Flores",
+  "Edad": 23,
+  "Posicion": "Delantero",
+  "Equipo": "Colfatima"
+},{
+  "_id": {
+    "$numberLong": "6516071338"
+  },
+  "Nombre": "Mario Pascual Flores",
+  "Edad": 26,
+  "Posicion": "Delantero",
+  "Equipo": "Colfatima"
+},{
+  "_id": {
+    "$numberLong": "7800434046"
+  },
+  "Nombre": "David Bidault Pueyo",
+  "Edad": 24,
+  "Posicion": "Capitan",
+  "Equipo": "Los del barrio"
+},{
+  "_id": 1265714487,
+  "Nombre": "Ramon Morales Gese",
+  "Edad": 23,
+  "Posicion": "Defensa",
+  "Equipo": "Los del barrio"
+},
+{
+  "_id": 1016097456,
+  "Nombre": "Raul Jaimes Castillo",
+  "Edad": 26,
+  "Posicion": "Centrocampista",
+  "Equipo": "Los  rayos"
+}]

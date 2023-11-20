@@ -1,0 +1,55 @@
+[{
+  "_id": 1,
+  "Equipo": "Los faroles",
+  "Partidos_jugados": 5,
+  "Partidos_ganados": 2,
+  "Partidos_perdidos": 3,
+  "Partidos_empatados": 0,
+  "Puntos": 6,
+  "Diferencia_Goles": -1
+},{
+  "_id": 2,
+  "Equipo": "Casuarito",
+  "Partidos_jugados": 5,
+  "Partidos_ganados": 4,
+  "Partidos_perdidos": 1,
+  "Partidos_empatados": 0,
+  "Puntos": 12,
+  "Diferencia_Goles": 8
+},{
+  "_id": 3,
+  "Equipo": "Colfatima",
+  "Partidos_jugados": 5,
+  "Partidos_ganados": 4,
+  "Partidos_perdidos": 1,
+  "Partidos_empatados": 0,
+  "Puntos": 12,
+  "Diferencia_Goles": 7
+},{
+  "_id": 4,
+  "Equipo": "Insuperables",
+  "Partidos_jugados": 5,
+  "Partidos_ganados": 2,
+  "Partidos_perdidos": 3,
+  "Partidos_empatados": 0,
+  "Puntos": 6,
+  "Diferencia_Goles": -4
+},{
+  "_id": 5,
+  "Equipo": "Los del barrio",
+  "Partidos_jugados": 5,
+  "Partidos_ganados": 4,
+  "Partidos_perdidos": 1,
+  "Partidos_empatados": 0,
+  "Puntos": 12,
+  "Diferencia_Goles": 11
+},{
+  "_id": 6,
+  "Equipo": "Los troncos",
+  "Partidos_jugados": 5,
+  "Partidos_ganados": 2,
+  "Partidos_perdidos": 3,
+  "Partidos_empatados": 0,
+  "Puntos": 6,
+  "Diferencia_Goles": -4
+}]
