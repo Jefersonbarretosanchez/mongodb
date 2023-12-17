@@ -1,0 +1,144 @@
+//Paso 1. Iniciar Consola de Mongo Shell
+
+-----------------------------------------------------------
+
+//Paso 2 -Creación del grupo de particionado para pruebas
+
+
+*Levantar El cluster*                                      
+|cluster=new ShardingTest ({shards: 3, chunksize:1})       
+
+-----------------------------------------------------------
+
+//Paso 3 -Inserción de datos sobre el balanceador
+
+
+*/Inicaremos el balanceador en una nueva consola/*         
+                                                           
+db = (new Mongo("localhost:20006")).getDB("Campeonato")     
+                                                           
+*/Insertar Registros de Arbitros,Jugadores y entrenadores/*                                            
+
+
+db.arbitros.insertMany([{id: 10,nombre : "Carlos Andres", edad :34},
+{id: 11,nombre : "Pedro Juan", edad :34,},
+{id: 12,nombre : "Timoteo Esteban", edad :44,},
+{id: 13,nombre : "Carlos Esteban", edad :28,},
+{id: 14,nombre : "Raul Alberto", edad :34,},
+{id: 15,nombre : "Jeferson Antonio", edad :55,},
+{id: 16,nombre : "Juan Andres", edad :45}]);
+      
+
+db.entrenadores.insertMany([
+{id:7 ,nombre : "Pedro Jose Rojas", edad :34},
+{id:8 ,nombre : "carlos Juares R", edad :44},
+{id:9 ,nombre : "Esteban Perez G", edad :28},
+{id:10 ,nombre : "Raul Andres C", edad :45},
+{id:11 ,nombre : "Juan Agustin R", edad :38}
+]);
+
+for (i= 0; i < 600000; i++) {db.jugadores.insert({id: i,nombre : "Jugador #" +i, edad :10+i, date: new Date() });}
+
+                                                           
+*/Consulta de Registros/*                                  
+                                                           
+db.arbitros.count()
+db.jugadores.count()
+db.entrenadores.count()
+-----------------------------------------------------------
+
+//Paso 4 -Comprobación de la distribución de datos en los nodos
+
+*/Iniciar nueva consola de Consultas/*
+*/Nos conectamos al puerto 20000/*
+
+shard1 = new Mongo("localhost:20000")
+
+*/Accedemos a la base de datos Campeonato/*
+
+shard1DB = shard1.getDB("Campeonato")
+
+*/Verificamos la insercion de registros en el shard1/*
+
+shard1DB.arbitros.count()
+
+*/Nos conectamos al puerto 20001/*
+
+shard2 = new Mongo("localhost:20001")
+
+*/Accedemos a la base de datos Campeonato/*
+
+shard2DB = shard2.getDB("Campeonato")
+
+*/Verificamos la insercion de registros en el shard1/*
+
+shard2DB.arbitros.count()
+
+*/Nos conectamos al puerto 20002/*
+
+shard3 = new Mongo("localhost:20002")
+
+*/Accedemos a la base de datos Campeonato/*
+
+shard3DB = shard3.getDB("Campeonato")
+
+*/Verificamos la insercion de registros en el shard1/*
+
+shard3DB.arbitros.count()
+
+-------------------------------------------------------------
+
+Paso 5 -Activación del Sharding
+
+
+*/Regresamos a la consola del balanceador/*
+
+shard1 = new Mongo("localhost:20006")
+
+*/Consulta del estatus del shard/*
+
+sh.status()
+
+*/Definir la base de datos para activar el sharding/*
+
+sh.enableSharding("Campeonato")
+
+
+*/Creamos un índice en la clave que desea usar como shard, en este caso sera el nombre del arbitro/*
+
+db.jugadores.ensureIndex({nombre : 1})
+
+*/Activamos la coleccion arbitros para el sharding y consultamos su estatus/*
+
+sh.shardCollection("Campeonato.arbitros", {nombre: 1})
+sh.status()
+
+--------------------------------------------------------
+
+Paso 6 -Activación del balanceador de carga
+
+
+*/Verificamos el estado de Ejecucion del balanceador/*
+
+sh.getBalancerState()
+
+*/Resultado es false/*
+
+*/Activamos el balanceador/*
+
+sh.setBalancerState(true)
+
+*/Consultamos el estado del balanceador y el status del sharding, adicional verificamos si ya esta iniciado el balanceador/*
+
+sh.getBalancerState()
+sh.status()
+sh.isBalancerRunning()
+
+------------------------------------------
+
+Conocer el listado de shards activos
+
+
+
+db.adminCommand( { listShards: 1 } )
+
